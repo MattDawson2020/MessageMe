@@ -1,6 +1,6 @@
-class MessagesController < ApplicationController 
+class MessagesController < ApplicationController
   before_action :require_user
-  
+
   def create
     message = current_user.messages.build(message_params)
     if message.save
@@ -8,15 +8,15 @@ class MessagesController < ApplicationController
                                     mod_message: message_render(message)
     end
   end
-  
-  private 
-  
+
+  private
+
   def message_params
     params.require(:message).permit(:body)
   end
-  
+
   def message_render(message)
     render(partial: 'message', locals: {message: message})
   end
-  
+
 end

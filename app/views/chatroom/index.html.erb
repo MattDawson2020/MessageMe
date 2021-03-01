@@ -1,4 +1,4 @@
-<h4 class ="ui center aligned medium icon header">
+<h4 class="ui center aligned medium icon header">
   <i class="circular orange coffee icon"></i>
   Say Something
 </h4>
@@ -6,7 +6,7 @@
 <div class="ui two column grid">
   <div class="twelve wide column">
     <div class="ui fluid raised card chatbox">
-      <div class="content">
+      <div class="content" id="messages">
         <div class="ui feed" id="message-container">
           <%= render @messages %>
         </div>
@@ -23,6 +23,7 @@
       </div>
     </div>
   </div>
+
   <div class="four wide column">
     <div class="ui fluid raised card chatbox">
       <div class="content">
@@ -31,3 +32,13 @@
             Home
           </a>
           <a class="item">
+            Messages
+          </a>
+          <a class="item">
+            Friends
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
