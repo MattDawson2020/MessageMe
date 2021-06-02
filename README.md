@@ -13,4 +13,5 @@ From this I gained preliminary understanding into:
 -Basic HTML, CSS and SemanticUI
 -What a framework is and how they worked
 -The basics of Ruby on Rails, which would come back to help greatly in Makers week 8
+-How to use channels to create an instant chat feature
 ```
