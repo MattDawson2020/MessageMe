@@ -3,11 +3,6 @@ This is a project I built following [Mashrur Hossain's Ruby on Rails Udemy cours
 At the time I had only completed basic Ruby tutorials and exercises so much of the content was a little beyond my understanding. 
 However this was something I understood going in, as it was intended to be a crash course/ prep for Makers.
 
-* TDD and RSpec
-* Knowing when to split a class and how to add functionality
-* Basic class structure and attributes
-
-
 Learning
 -----
 * The MVC model, and what each of them did
